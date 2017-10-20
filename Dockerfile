@@ -7,7 +7,7 @@ COPY ./4.4_qcom-ipq8065-r7800.dts /lede/target/linux/ipq806x/files-4.4/arch/arm/
 COPY ./4.9_qcom-ipq8065-r7800.dts /lede/target/linux/ipq806x/files-4.9/arch/arm/boot/dts/qcom-ipq8065-r7800.dts
 
 #构建配置
-COPY ./.config /lede/.config
+COPY ./102003.config /lede/.config
 
 RUN make download
 
