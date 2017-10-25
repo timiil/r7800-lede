@@ -11,4 +11,4 @@ COPY ./full.config /lede/.config
 
 RUN make download
 
-#RUN make -j1 V=s 
+RUN make -j V=s 
