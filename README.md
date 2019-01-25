@@ -2,6 +2,6 @@
 
 使用 https://github.com/coolsnowwolf/lede.git 源码为基础,结合本项目中.config文件进行构建。
 
-
-Kernal Module => USB Audio
-                  USB Sotrage
+```
+docker run -it -v /home/lede/out:/lede/bin timiil/r7800-lede make -j1 V=s
+```
